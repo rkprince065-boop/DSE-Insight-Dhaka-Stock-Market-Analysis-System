@@ -126,7 +126,7 @@ The following visualizations can be added to better understand the data:
 - 📊 Trading volume comparison  
 - 🏆 Top performing companies  
 
-![Chart](Attachment/10_Find top gainers (growth(Volatility)).png)
+![Chart](h:\DSE Insight Dhaka Stock Market Analysis System\Attachment\10_Find top gainers (growth(Volatility)).png)
 
 ---
 
