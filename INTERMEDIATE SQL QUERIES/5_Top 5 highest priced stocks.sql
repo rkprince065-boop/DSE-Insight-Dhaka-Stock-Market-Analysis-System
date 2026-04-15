@@ -1,24 +1,10 @@
 SELECT *
 FROM day_end_archive
 WHERE last_traded_price IS NOT NULL
-ORDER BY last_traded_price DESC
+ORDER BY closing_price DESC
 LIMIT 5;
 
 /*[
-  {
-    "siral": null,
-    "date": null,
-    "trading_code": null,
-    "last_traded_price": null,
-    "high": null,
-    "low": null,
-    "opening_price": null,
-    "closing_price": null,
-    "yeasterday_closing_price": null,
-    "trade": null,
-    "value_mn": null,
-    "volume": null
-  },
   {
     "siral": 254,
     "date": "2026-03-02",
@@ -74,6 +60,20 @@ LIMIT 5;
     "trade": 160,
     "value_mn": "1.90",
     "volume": 1346
+  },
+  {
+    "siral": 244,
+    "date": "2026-03-16",
+    "trading_code": "BERGERPBL",
+    "last_traded_price": "1410.90",
+    "high": "1415.60",
+    "low": "1410.00",
+    "opening_price": "1415.50",
+    "closing_price": "1410.90",
+    "yeasterday_closing_price": "1411.20",
+    "trade": 183,
+    "value_mn": "2.32",
+    "volume": 1641
   }
 ]
 */
