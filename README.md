@@ -135,6 +135,8 @@ Stagnant Performers: BEXIMCO showed absolutely zero volatility, with its high an
 | EBL          |     28.60 |     24.30 |           17.70 |
 | BEXIMCO      |    110.10 |    110.10 |            0.00 |
 
+![Maximum Price Fluctuation (Volatility)](Attachment/1.png)
+
 2. True Monthly Growth (March 2026)
 Volatility doesn't always equal profit. To find the actual monthly performance, I used Common Table Expressions (CTEs) to isolate the closing prices from March 1st and March 31st to calculate true growth.
 
@@ -170,6 +172,8 @@ The Volatility Trap: Despite having the highest price fluctuations (noted in Que
 | ISLAMIBANK   |           43.80 |            38.80 |          -11.42 |
 | BRACBANK     |           84.00 |            67.00 |          -20.24 |
 
+![True Monthly Growth (March 2026)](Attachment/2.png)
+
 3. Overall Market Price Trend
 To validate the bearish trend seen in individual stocks, I calculated the daily average closing price across the entire recorded market to see the macro trend.
 
@@ -193,6 +197,8 @@ Lack of Recovery: There were no significant market-wide rallies during the month
 | 2026-03-01 |                248.87 |
 | 2026-03-15 |                243.57 |
 | 2026-03-31 |                238.65 |
+
+![Overall Market Price Trend](Attachment/3.png)
 
 4. Daily Trading Volume Leaders
 Finally, I wanted to know which stocks were moving the most shares. I used a subquery to find the exact stock that dominated the trading volume for each specific date.
@@ -222,6 +228,8 @@ Late-Month Shift: BRACBANK saw massive volume spikes towards the end of the mont
 | 2026-03-15 | ROBI             |  6,025,692 |
 | 2026-03-16 | BRACBANK         |  1,753,108 |
 | 2026-03-31 | BRACBANK         |  3,871,365 |
+
+![Daily Trading Volume Leaders](Attachment/4.png)
 ---
 
 ## 📁 Project Structure  
