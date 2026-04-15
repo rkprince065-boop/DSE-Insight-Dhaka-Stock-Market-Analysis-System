@@ -126,7 +126,7 @@ The following visualizations can be added to better understand the data:
 - 📊 Trading volume comparison  
 - 🏆 Top performing companies  
 
-![Chart](chart.png)
+![Chart](Attachment/10_Find top gainers (growth(Volatility)).png)
 
 ---
 
